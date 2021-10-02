@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/contract",
+    "name": "gemini/hyperf2.3-contract",
     "description": "The contracts of Hyperf.",
     "license": "MIT",
     "keywords": [
@@ -17,6 +17,9 @@
     "require": {
         "php": ">=7.2"
     },
+    "replace": {
+        "hyperf/contract": "*"
+    },
     "autoload": {
         "psr-4": {
             "Hyperf\\Contract\\": "src/"
@@ -27,7 +30,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.2-dev"
+            "dev-master": "2.3-dev"
         }
     }
 }
